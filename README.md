@@ -1,6 +1,6 @@
-# Homebrew Tap for taskmd
+# driangle's Homebrew Tap
 
-Homebrew formulae for [taskmd](https://github.com/driangle/taskmd) - a markdown-based task management system.
+Personal Homebrew formulae for my tools and utilities.
 
 ## Installation
 
@@ -8,33 +8,35 @@ Homebrew formulae for [taskmd](https://github.com/driangle/taskmd) - a markdown-
 # Add the tap
 brew tap driangle/tap
 
-# Install taskmd
+# Install any formula
+brew install <formula-name>
+```
+
+## Available Formulae
+
+- **[taskmd](https://github.com/driangle/taskmd)** - Markdown-based task management CLI and web dashboard
+
+## Usage
+
+```bash
+# Install a formula
 brew install taskmd
 
-# Verify installation
-taskmd --version
-```
-
-## Upgrading
-
-```bash
+# Upgrade all formulas from this tap
 brew update
-brew upgrade taskmd
-```
+brew upgrade
 
-## Uninstalling
-
-```bash
+# Uninstall
 brew uninstall taskmd
 brew untap driangle/tap
 ```
 
 ## Formula Updates
 
-The formula in this repository is automatically updated by the taskmd release workflow when a new version is published.
+Formulae in this repository are automatically updated by their respective release workflows when new versions are published.
 
 ## Issues
 
-For issues with taskmd itself, please report them at: https://github.com/driangle/taskmd/issues
+For issues with individual tools, please report them in their respective repositories.
 
-For issues with the Homebrew formula, please report them here.
+For issues with the Homebrew formulae themselves, please report them here.
