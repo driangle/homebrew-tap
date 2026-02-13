@@ -1,28 +1,28 @@
 class Taskmd < Formula
   desc "Markdown-based task management CLI and web dashboard"
   homepage "https://github.com/driangle/taskmd"
-  version "0.0.2"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/driangle/taskmd/releases/download/v0.0.2/taskmd-v0.0.2-darwin-arm64.tar.gz"
-      sha256 "7789ca838a4ab9a6285a101b191a11913cb2f8f5ed7b042602a2347dd626c1bd"
+      url "https://github.com/driangle/taskmd/releases/download/v0.0.3/taskmd-v0.0.3-darwin-arm64.tar.gz"
+      sha256 "fa6093a97275256c696fb93112d1c9c1e733984684cff628f688174a5424715e"
     end
     on_intel do
-      url "https://github.com/driangle/taskmd/releases/download/v0.0.2/taskmd-v0.0.2-darwin-amd64.tar.gz"
-      sha256 "8cacb049f901cb1e9280902dee8ef10e2aca1352ead8d6ba98b16bc0880b974a"
+      url "https://github.com/driangle/taskmd/releases/download/v0.0.3/taskmd-v0.0.3-darwin-amd64.tar.gz"
+      sha256 "41128987261ccac46b602344972f76e659803d915d09d30c09c37fb22610edf5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/driangle/taskmd/releases/download/v0.0.2/taskmd-v0.0.2-linux-arm64.tar.gz"
-      sha256 "9189bfc148928a4c98f4d2a008841130387663b804b3420047399c488fc82279"
+      url "https://github.com/driangle/taskmd/releases/download/v0.0.3/taskmd-v0.0.3-linux-arm64.tar.gz"
+      sha256 "ffd8ccbb5957ca0f91f1ca9b5a02d05ec982fd9e5626d5b3ab1ca8d7750f3e2f"
     end
     on_intel do
-      url "https://github.com/driangle/taskmd/releases/download/v0.0.2/taskmd-v0.0.2-linux-amd64.tar.gz"
-      sha256 "294cd9ab534ee2cb382588ba04aca3d933404a4507ef11372d4fb9a36601cddf"
+      url "https://github.com/driangle/taskmd/releases/download/v0.0.3/taskmd-v0.0.3-linux-amd64.tar.gz"
+      sha256 "d3ea12d8d3a1e0c58eb91cdbe499259449b9f779cd700281ad5f9ec37e4d04d9"
     end
   end
 
