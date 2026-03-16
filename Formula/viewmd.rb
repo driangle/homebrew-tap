@@ -1,28 +1,28 @@
 class Viewmd < Formula
   desc "Minimal file viewer for the browser — renders markdown, code, images, and directories"
   homepage "https://github.com/driangle/viewmd"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/driangle/viewmd/releases/download/v0.2.0/viewmd-v0.2.0-darwin-arm64.tar.gz"
-      sha256 "c89eeecfc14b552e832c1ac7debd002e61228165c538ca21064f373ea24fd5b5"
+      url "https://github.com/driangle/viewmd/releases/download/v0.2.1/viewmd-v0.2.1-darwin-arm64.tar.gz"
+      sha256 "9550b8e6e26da85207b22dbe0f8f483feba83755c2ff83710b0a5687482ee025"
     end
     on_intel do
-      url "https://github.com/driangle/viewmd/releases/download/v0.2.0/viewmd-v0.2.0-darwin-amd64.tar.gz"
-      sha256 "0c1a48792bd8596323fd8dd1129db78760bd6273ab0e267f269a8aab3846eb45"
+      url "https://github.com/driangle/viewmd/releases/download/v0.2.1/viewmd-v0.2.1-darwin-amd64.tar.gz"
+      sha256 "1046bbfa3107048f3a26367c7a1efa7f2fe0be2138bc88140fb5594b2385d352"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/driangle/viewmd/releases/download/v0.2.0/viewmd-v0.2.0-linux-arm64.tar.gz"
-      sha256 "9bbf5dc7f3298fd40bd7221174c9cde5f184f2faceb766f9f6ef661dcfa6458b"
+      url "https://github.com/driangle/viewmd/releases/download/v0.2.1/viewmd-v0.2.1-linux-arm64.tar.gz"
+      sha256 "cef1b58bede93050c1d63e902f269c0cbed7faca9f2c6a84a6a318af6decd7a0"
     end
     on_intel do
-      url "https://github.com/driangle/viewmd/releases/download/v0.2.0/viewmd-v0.2.0-linux-amd64.tar.gz"
-      sha256 "f7445ca7b0e6a4f58940559c0ccfc0bbe45579cc1ccc02c1e5cd1e6e5d69ce09"
+      url "https://github.com/driangle/viewmd/releases/download/v0.2.1/viewmd-v0.2.1-linux-amd64.tar.gz"
+      sha256 "40bba6f9eacadaabc7e2203782746626be678272fbf2f949e9e03b44cfbd1ef8"
     end
   end
 
