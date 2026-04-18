@@ -5,21 +5,21 @@
 class Vibeview < Formula
   desc "A local viewer for Claude Code sessions"
   homepage "https://github.com/driangle/vibeview"
-  version "0.0.8"
+  version "0.0.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/driangle/vibeview/releases/download/v0.0.8/vibeview_0.0.8_darwin_amd64.tar.gz"
-      sha256 "5863125a5787e489a61ab140a4aad65593bc9203b3795010218c9eac0e6d05b1"
+      url "https://github.com/driangle/vibeview/releases/download/v0.0.9/vibeview_0.0.9_darwin_amd64.tar.gz"
+      sha256 "0ab7640316799f352f6797df71864b3c28b708ff6a049220189107cf2f51f2db"
 
       define_method(:install) do
         bin.install "vibeview"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/driangle/vibeview/releases/download/v0.0.8/vibeview_0.0.8_darwin_arm64.tar.gz"
-      sha256 "fe3a9312d242df37b74c0c3b35460e9da9c49773125d82091646a07989530538"
+      url "https://github.com/driangle/vibeview/releases/download/v0.0.9/vibeview_0.0.9_darwin_arm64.tar.gz"
+      sha256 "90373a2da6a97010aad4f4902da0095f13c1e42afc33848d3295e0ad298dbcb4"
 
       define_method(:install) do
         bin.install "vibeview"
@@ -29,8 +29,8 @@ class Vibeview < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/driangle/vibeview/releases/download/v0.0.8/vibeview_0.0.8_linux_amd64.tar.gz"
-      sha256 "31819ba6ed48c607749abfba0eafbe0c2e10bd6a5456b3439a49a8fd75e6e81e"
+      url "https://github.com/driangle/vibeview/releases/download/v0.0.9/vibeview_0.0.9_linux_amd64.tar.gz"
+      sha256 "c3c59e4c59abe830cb8b3c0c5870c686ec727db8105c0eaa0c50ff49a2b3ac47"
       define_method(:install) do
         bin.install "vibeview"
       end
