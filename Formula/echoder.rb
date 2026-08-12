@@ -10,22 +10,22 @@ class Echoder < Formula
   on_macos do
     on_arm do
       url "https://github.com/driangle/echoder/releases/download/cli-v0.1.0/echoder-0.1.0-darwin-arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "aa48a6522b82f470e34dc7cdf310c20d9fb64924a58356288d38c107c65ed50b"
     end
     on_intel do
       url "https://github.com/driangle/echoder/releases/download/cli-v0.1.0/echoder-0.1.0-darwin-x64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "a49bafaaf3dde6cccc4d7ee488efe0a17b4a9863cc95754af8027153b3b40af4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/driangle/echoder/releases/download/cli-v0.1.0/echoder-0.1.0-linux-arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "b1ebdf47e0e4fda62bd03ac41ee158570f7fe0cccd52978ee8f875a060be1dbf"
     end
     on_intel do
       url "https://github.com/driangle/echoder/releases/download/cli-v0.1.0/echoder-0.1.0-linux-x64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "c81705e1021fbc22015fec65d19eb2e297d8791e4831d03a2f14597bcc0fbc3f"
     end
   end
 
