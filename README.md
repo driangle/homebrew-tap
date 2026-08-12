@@ -15,6 +15,7 @@ brew install <formula-name>
 ## Available Formulae
 
 - **[taskmd](https://github.com/driangle/taskmd)** - Markdown-based task management CLI and web dashboard
+- **[echoder](https://github.com/driangle/echoder)** - Headless renderer for Echoder creative-coding sketches
 
 ## Usage
 
