@@ -5,19 +5,19 @@ class Vibeview < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/driangle/vibeview/releases/download/v0.1.1/vibeview_0.1.1_darwin_arm64.tar.gz"
-      sha256 "2f3bd8e3c3fb923f637fe715c087ab61838ce331e17e0218256d219ef013e421"
+      url "https://github.com/driangle/vibeview/releases/download/v0.1.2/vibeview_0.1.2_darwin_arm64.tar.gz"
+      sha256 "58f34b04bf670bccd0d88c0ae94b924a6f3d97635e66512d939b031ceadbdaa1"
     end
     on_intel do
-      url "https://github.com/driangle/vibeview/releases/download/v0.1.1/vibeview_0.1.1_darwin_amd64.tar.gz"
-      sha256 "fecb106e118c2f2f3c58c70fa4636579e0072b1d316314ce30ffdb4377caa34c"
+      url "https://github.com/driangle/vibeview/releases/download/v0.1.2/vibeview_0.1.2_darwin_amd64.tar.gz"
+      sha256 "fa2147aa2ee0d92d67c45d8b370daee20a5e966153a12fc12e9c72f5201d847d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/driangle/vibeview/releases/download/v0.1.1/vibeview_0.1.1_linux_amd64.tar.gz"
-      sha256 "db90702366cdc3fbfc9f0deaebb87e219476338646cb54b2f990d00d100ac0ba"
+      url "https://github.com/driangle/vibeview/releases/download/v0.1.2/vibeview_0.1.2_linux_amd64.tar.gz"
+      sha256 "090f5c566d4ea2b912bb09e9448cdd08035dbd480b60be8388b4539bf7ce42d0"
     end
   end
 
