@@ -5,23 +5,23 @@ class Taskmd < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/driangle/taskmd/releases/download/v0.7.0/taskmd-v0.7.0-darwin-arm64.tar.gz"
-      sha256 "6ebc9b18d8162b4be06970905776e89e2ccabd10f439822f52d274f34a2525fa"
+      url "https://github.com/driangle/taskmd/releases/download/v0.8.0/taskmd-v0.8.0-darwin-arm64.tar.gz"
+      sha256 "a05c91db6861b55afd4931c482423acef92ade44a233b908be918f77edd68191"
     end
     on_intel do
-      url "https://github.com/driangle/taskmd/releases/download/v0.7.0/taskmd-v0.7.0-darwin-amd64.tar.gz"
-      sha256 "e6f7c132fa8948046f9aaaf22bf401960d5f696a11dadad74d38b1a2e03ed0bb"
+      url "https://github.com/driangle/taskmd/releases/download/v0.8.0/taskmd-v0.8.0-darwin-amd64.tar.gz"
+      sha256 "0b59f2701c5cf98490c42cdf2ef6b7e0fc5904fc44c8ea1098ff05ea19419fa4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/driangle/taskmd/releases/download/v0.7.0/taskmd-v0.7.0-linux-arm64.tar.gz"
-      sha256 "7aaf3be863a67fafb520714ddf0b4888758f700ee35583679f047349a494337d"
+      url "https://github.com/driangle/taskmd/releases/download/v0.8.0/taskmd-v0.8.0-linux-arm64.tar.gz"
+      sha256 "7df47d6edc6f3ea06c39e10d46ef25a4b4544d9b9bec75b8a7fa6170440a3edb"
     end
     on_intel do
-      url "https://github.com/driangle/taskmd/releases/download/v0.7.0/taskmd-v0.7.0-linux-amd64.tar.gz"
-      sha256 "876762fe4961ae4bfa062c4febf7e0581281924b193bd781a533543aa64e141f"
+      url "https://github.com/driangle/taskmd/releases/download/v0.8.0/taskmd-v0.8.0-linux-amd64.tar.gz"
+      sha256 "d3a557277390acbbdd47fa3f0c5e3dbbc045058756395957fe156223f64c79ff"
     end
   end
 
